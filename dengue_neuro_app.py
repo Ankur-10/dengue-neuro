@@ -80,7 +80,7 @@ st.markdown("""
 # ─── Data Loading & Model Training ──────────────────────────────────────────
 @st.cache_resource
 def load_and_train():
-    df = pd.read_excel(r'data\Newdata_dengue_neuro.xlsx')
+    df = pd.read_excel('data/Newdata_dengue_neuro.xlsx')
 
     # Drop F/U columns, mostly-empty cols, address, and identifier cols
     drop_cols = [
