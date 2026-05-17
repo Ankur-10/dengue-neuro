@@ -1,0 +1,20 @@
+TRAINING REPORT – Dengue Neuro Diagnosis Model
+=======================================================
+
+Model : Stage-1  |  CNS vs PNS
+  CV Accuracy  : 0.931 ± 0.057
+  CV F1 (wtd)  : 0.931 ± 0.056
+  CV Recall    : 0.931 ± 0.057
+  CV Precision : 0.948 ± 0.043
+
+Model : Stage-2a | CNS Diagnosis  ['E', 'En', 'SD', 'STROKE', 'TM']
+  CV Accuracy  : 0.740 ± 0.155
+  CV F1 (wtd)  : 0.689 ± 0.191
+  CV Recall    : 0.740 ± 0.155
+  CV Precision : 0.682 ± 0.223
+
+Model : Stage-2b | PNS Diagnosis  ['GBS', 'HPP', 'MYO']
+  CV Accuracy  : 0.867 ± 0.267
+  CV F1 (wtd)  : 0.833 ± 0.333
+  CV Recall    : 0.867 ± 0.267
+  CV Precision : 0.822 ± 0.356

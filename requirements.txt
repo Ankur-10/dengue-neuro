@@ -1,0 +1,25 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Dengue Neurological Complication Predictor
+# requirements.txt
+#
+# Install:
+#   pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Core ML
+scikit-learn==1.8.0
+numpy==2.4.4
+pandas==3.0.2
+joblib==1.5.3
+
+# Excel I/O
+openpyxl==3.1.5
+
+# Explainability
+shap==0.51.0
+
+# Visualisation (used by Streamlit and training script)
+matplotlib==3.10.8
+
+# Web UI
+streamlit==1.57.0
